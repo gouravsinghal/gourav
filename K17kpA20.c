@@ -4,7 +4,7 @@ struct process
 {
 int arival_time,brust_time,waiting_time,turn_around_time,remainig_brust_time,process_id, flag,flag1, priority;
 };
-struct process p1[10];
+struct process p1[20];
 int i,j,k,n,no,m;
 float average_tat=0.0,average_wt=0.0;
 int tbt=0;
